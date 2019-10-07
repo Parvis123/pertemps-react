@@ -1,15 +1,17 @@
 import React from "react";
-import Button from "./components/button.jsx";
 import NavbarContainer from  "./components/navbar"
+import ImageContainer from "./components/imageContainer"
 
 
 
 function App() {
   return (
     <div>
-      <header>
         <NavbarContainer />
-      </header>
+        <ImageContainer />
+        <div className="intense-shadow"></div>
+        <div className="shadow"></div>
+        
     </div>
   );
 }

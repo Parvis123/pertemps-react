@@ -11,20 +11,14 @@ let navbarNames = [
 
 ];
 
-// {
-//     navbarNames.map((x, i) => {
-//         return <Button key={i} title={x.title} href={x.link} />;
-//     })
-// }
-
 let NavList = () => {
     return (
         navbarNames.map((x, i) => {
         	return(
-            	<li className="nav-item">
-	            	<a key={i} href={x.link} className="nav-link">{x.title}</a>
-	        	</li>
-	       	)
+            		<li className="nav-item">
+	            		<a key={i} href={x.link} className="nav-link">{x.title}</a>
+	        		</li>
+	       		)
         	}
     	)
    	)
