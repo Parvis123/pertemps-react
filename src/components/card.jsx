@@ -75,7 +75,7 @@ const Card = () => {
               {x.pph}
             </p>
             <div className="text-center">
-              <a href="#" className="btn btn-primary">
+              <a href="www.google.com" className="btn btn-primary">
                 Find out more
               </a>
             </div>
