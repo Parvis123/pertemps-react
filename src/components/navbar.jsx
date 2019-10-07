@@ -4,7 +4,7 @@ import "../App.css";
 // import Button from "./button"
 import NavList from "./navlist";
 
-const NavbarContainer = ({ nav }) => {
+const NavbarContainer = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
 			<a className="navbar-brand" href="www.bing.com">

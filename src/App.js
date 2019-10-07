@@ -1,6 +1,7 @@
 import React from "react";
-import NavbarContainer from  "./components/navbar"
-import ImageContainer from "./components/imageContainer"
+import NavbarContainer from  "./components/navbar";
+import ImageContainer from "./components/imageContainer";
+import CardContainer from "./components/cardContainer";
 
 
 
@@ -11,7 +12,7 @@ function App() {
         <ImageContainer />
         <div className="intense-shadow"></div>
         <div className="shadow"></div>
-        
+        <CardContainer />
     </div>
   );
 }
