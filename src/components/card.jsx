@@ -8,7 +8,7 @@ let cardInfo = [
     { position: "card-right", title: "Care Assistant - Weekends", id:3, pay:" Paid Mileage 35p per Mile.", training:" Full Training is provided.", holidays:" Paid Holidays", shift:" 0700-1400 / 1600-2200 Shift patterns.", bankholidays:" Enhanced pay for bank holidays.", pph:" Up to £14ph."},
 ];
 
-// maybe class would've been better in retrospect, compared to array anyway.
+// maybe class would've been better in retrospect, compared to object anyway.
 
 
 const Card = () => {
@@ -18,7 +18,7 @@ const Card = () => {
 				<div class="col-xs-3">
 				    <div className="card">
 				        <div className="card-body">
-				            <div className="card-heading" className={x.position}>
+				            <div className={`card-heading ${x.position}`}>
 				                <h3 key={i} className="card-title">{x.title}</h3>
 				            </div>
 				            <p className="card-text"><i className="fas fa-money-bill"></i>{x.pay}</p>
