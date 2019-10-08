@@ -9,7 +9,6 @@ function App() {
       <NavbarContainer />
       <ImageContainer />
       <div className="intense-shadow"></div>
-      <div className="shadow"></div>
       <CardContainer />
     </div>
   );
