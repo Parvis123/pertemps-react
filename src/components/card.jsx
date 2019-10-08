@@ -39,6 +39,7 @@ let cardInfo = [
 
 // maybe class would've been better in retrospect, compared to object anyway.
 
+// function maps over the object, using the index (i) as a unique key.
 const Card = () => {
   return cardInfo.map((x, i) => {
     return (
